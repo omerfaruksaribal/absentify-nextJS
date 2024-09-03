@@ -55,7 +55,7 @@ export default function Navbar() {
   const logo = currentTheme === 'dark' ? logoWhite : logoBlack;
 
   if (!mounted) {
-    return null; // or a loading spinner
+    return null;
   }
 
   return (
